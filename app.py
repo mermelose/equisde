@@ -5,13 +5,13 @@ import plotly.express as px
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Mi App Streamlit",
-    page_icon="🚀",
+    page_title="APP PRO",
+    page_icon="🥷",
     layout="wide"
 )
 
 # Título principal
-st.title("🚀 Mi Primera App Streamlit en Docker")
+st.title("🥷 Mermelose")
 st.markdown("---")
 
 # Sidebar
@@ -31,7 +31,7 @@ with col1:
         st.success("¡Datos generados exitosamente!")
 
 with col2:
-    st.header("📊 Gráfico de ejemplo")
+    st.header("📊 Gráfico final")
     
     # Generar datos aleatorios
     data = pd.DataFrame({
@@ -47,7 +47,7 @@ with col2:
 
 # Métricas
 st.markdown("---")
-st.header("📈 Métricas")
+st.header("📈 EQUISDE")
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
